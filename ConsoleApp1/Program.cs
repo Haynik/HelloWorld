@@ -7,8 +7,12 @@ namespace ConsoleApp1
         static void Main(string[] args)
         {
             Console.WriteLine("Hello World!");
-            Console.ReadKey();
-        }  
+            Console.WriteLine("Goodbye World :o");
+            Console.WriteLine("Whose man is this?");
+            string response = Console.ReadLine();
+            Console.WriteLine("Well you said " + response + " and you're a bitch for not checking him");
+
+        } 
 
     }
 }
